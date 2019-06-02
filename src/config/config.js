@@ -1,5 +1,5 @@
 const mongodbUrl = {
-    url : process.env.url || 'mongodb://localhost:27017/',
+    url : process.env.url || 'mongodb+srv://abhinaw:1997abhi123@abhinawdb-j6im7.mongodb.net/test?retryWrites=true&w=majority/',
     dbName: process.env.dbName || 'AbhinawDb'
 }
 
