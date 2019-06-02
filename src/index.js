@@ -23,6 +23,8 @@ app.use('/user', userController);
 
 app.use(errorHandler);
 
-app.listen(8000, () => 
+const port = process.env.PORT;
+
+app.listen(port, () => 
    { console.log(`Server Started Successfully`) }
 );
